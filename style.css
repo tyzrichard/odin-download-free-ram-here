@@ -59,6 +59,12 @@ body {
 .image {
     width: 50vw;
     background-color: grey;
+    overflow: hidden;
+}
+
+img {
+    height: 100%;
+    width: auto;
 }
 
 .content {
@@ -66,17 +72,25 @@ body {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    padding: 50px;
+    padding: 0px 50px;
 }
+
 
 h1 {
     font-size: 24px;
     font-weight: 700;
 }
 
-.form {
+form {
     height: 30%;
-    background-color: yellow;
+    background-color: lightgray;    
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+.form_contents {
+    display: flex;
+    justify-content:space-between;
 }
 
 button {
@@ -84,5 +98,5 @@ button {
 }
 
 span {
-    color: lightgreen;
+    color: darkgreen;
 }
