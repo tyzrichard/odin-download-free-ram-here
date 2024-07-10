@@ -147,7 +147,7 @@ input {
 }
 
 .form_contents input {
-    border-width: 0;
+    border: 2px solid green;
     border-radius: 5px;
     height: 24px;
     width: 300px;
@@ -167,4 +167,14 @@ button {
     background-color: #6315B2;
     border-width: 0;
     border-radius: 5px;
+}
+
+/* pseudo-classes */
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    background-color: #fff192;
 }
