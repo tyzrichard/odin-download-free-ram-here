@@ -58,8 +58,18 @@ body {
 
 .image {
     min-width: 30vw;
+}
 
-    overflow: hidden;
+.text {
+    position: absolute; 
+    top: 30vh;
+    color: #FFFFFF;
+    font-size: 58px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #1E1E1E;
+    opacity: 70%;
+    min-width: 30vw;
 }
 
 .image img {
@@ -82,7 +92,7 @@ body {
 }
 
 h1 {
-    font-size: 14px;
+    font-size: 12px;
     color: #FFFFFF;
     font-weight: 500;
 }
@@ -94,22 +104,21 @@ h1 {
 
 .products img {
     width: 190px;
-    height: 140px;
+    height: 130px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     color: #FFFFFF;
     font-weight: 700;
 }
 
 form {
-    height: 30%;
-    background-color: #320064;    
+    background-color: #320064;
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .form_contents {
@@ -118,26 +127,37 @@ form {
 
 .form_half {
     width: fit-content;
-    padding-right: 60px; 
+    padding-right: 60px;
 }
 
 .input {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 label {
     color: #EAD3F2;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 input {
     background-color: #EAD3F2;
+}
+
+.form_contents input {
     border-width: 0;
     border-radius: 5px;
+    height: 24px;
     width: 300px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    margin-top: 5px;
 }
 
 button {
